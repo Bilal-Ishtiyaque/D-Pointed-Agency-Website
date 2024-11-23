@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D-Pointed Agency</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Roboto Font -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-------------------
+        ----HEADER 
+    --------------------->
+
+    <header class="top_header">
+        <div class="header_wrapper container">
+            <ul class="flex header_social_list">
+                <li>
+                    <a href="" class="social_link"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social_link"><i class="fa-brands fa-tumblr"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social_link"><i class="fa-brands fa-pinterest-p"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social_link"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social_link"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social_link"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social_link"><i class="fa-brands fa-google-plus-g"></i></a>
+                </li>
+                <li>
+                    <a href="" class="social_link"><i class="fa-brands fa-vimeo-v"></i></a>
+                </li>
+            </ul>
+
+            <!-- LOGO -->
+
+            <button class="menu_open_btn" data-menu-toggler>
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="header_logo"><img src="./images/logo.png" alt="" /></div>
+
+            <!-- BTNS -->
+
+            <div class="header_authentication_buttons">
+                <a href="" class="btn">Login</a>
+
+                <a href="" class="btn">Signup</a>
+            </div>
+        </div>
+
+        <!-- NAVIGATION LINKS -->
+
+        <nav>
+
+            <button class="menu_close_btn" data-menu-toggler><i class="fa-solid fa-x"></i></button>
+
+            <ul >
+                <li><a href="" class="menu_link">HOME</a></li>
+                <li><a href="" class="menu_link">FOR INTERNSHIP JOB</a></li>
+                <li><a href="" class="menu_link">FOR PROFESSIONAL JOB</a></li>
+                <li><a href="" class="menu_link">ALL CONSULTANCY</a></li>
+            </ul>
+
+            <div class="header_authentication_buttons">
+                <a href="" class="btn">Login</a>
+
+                <a href="" class="btn">Signup</a>
+            </div>
+
+        </nav>
+
+        <!-- OVERLAY -->
+
+        <div class="overlay" data-overlay data-menu-toggler></div>
+    </header>
+
+    <!-------------------
+        ----MAIN SECTION
+    --------------------->
+
+    <main>
+
+        <!-- HERO CARDS SECTION -->
+        <section class="hero_cards">
+            <div class="hero_cards_wrapper container">
+                <article style="background-color: #009669">
+                    <header class="hero_cards_header" style="background-color: #016a4b">
+                        FOR INTERNSHIP
+                    </header>
+
+                    <div class="hero_card_content">
+                        <p>Upload your CV</p>
+                        <p>Find the right Internship</p>
+                        <p>Job title, SKills, etc.</p>
+                        <div class="choose_city">
+                            City <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <button class="btn">SEARCH</button>
+                    </div>
+                </article>
+                <article style="background-color: #252525">
+                    <header class="hero_cards_header" style="background-color: #101010">
+                        FOR PROFESSIONAL
+                    </header>
+
+                    <div class="hero_card_content">
+                        <p>Upload your CV</p>
+                        <p>Find the right Internship</p>
+                        <p>Job title, SKills, etc.</p>
+                        <div class="choose_city">
+                            City <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <button class="btn">SEARCH</button>
+                    </div>
+                </article>
+                <article style="background-color: #004f8a">
+                    <header class="hero_cards_header" style="background-color: #003159">
+                        CONSULTANCY
+                    </header>
+
+                    <div class="hero_card_content">
+                        <p>Upload your CV</p>
+                        <p>Find the right Internship</p>
+                        <p>Job title, SKills, etc.</p>
+                        <div class="choose_city">
+                            City <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <button class="btn">SEARCH</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-------------------
+        ----HERO BANNER
+        --------------------->
+
+        <section class="banner">
+            <div class="banner_content container">
+                <h1 class="banner_heading">
+                    Register Now and Let Employees Find You
+                </h1>
+
+                <div class="banner_sub_heading">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias, odio. Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+
+                <div class="banner_punchline">Be the Next One</div>
+
+                <button class="banner_btn">Register For Jobs</button>
+            </div>
+        </section>
+
+        <!-------------------
+        ----SECTION - FIND JOBS BY CITIES
+        --------------------->
+
+        <section class="jobs_by_cities">
+            <h2 class="heading">Find Jobs by Cities</h2>
+
+            <div class="cities_card container">
+                <article class="city_card" style="background-image: url('./images/Mazar-e-quaid.JPG')">
+                    <div class="city_card_content">
+                        <div class="city_name">KARACHI</div>
+                        <span>1995</span>
+                    </div>
+
+                    <a href="#"></a>
+                </article>
+                <article class="city_card" style="background-image: url('./images/Islamabad.jpg')">
+                    <div class="city_card_content">
+                        <div class="city_name">ISLAMABAD</div>
+                        <span>1995</span>
+                    </div>
+
+                    <a href="#"></a>
+                </article>
+                <article class="city_card" style="background-image: url('./images/lahore.jpg')">
+                    <div class="city_card_content">
+                        <div class="city_name">LAHORE</div>
+                        <span>1995</span>
+                    </div>
+
+                    <a href="#"></a>
+                </article>
+                <article class="city_card" style="background-image: url('./images/Bab-e-Khyber.jpg')">
+                    <div class="city_card_content">
+                        <div class="city_name">PESHAWAR</div>
+                        <span>1995</span>
+                    </div>
+
+                    <a href="#"></a>
+                </article>
+                <article class="city_card" style="background-image: url('./images/Faislabad.jpg')">
+                    <div class="city_card_content">
+                        <div class="city_name">FAISALABAD</div>
+                        <span>1995</span>
+                    </div>
+
+                    <a href="#"></a>
+                </article>
+                <article class="city_card">
+                    <div class="city_card_content">
+                        <div class="city_name">MORE CITIES</div>
+                        <span><i class="fa-solid fa-angles-down" style="font-size: 23px; margin-top: 10px"></i></span>
+                    </div>
+
+                    <a href="#"></a>
+                </article>
+            </div>
+        </section>
+
+        <!-------------------
+        ----SECTION - JOB TYPES
+        --------------------->
+
+        <section class="job_types">
+            <h2 class="heading">Job Types</h2>
+
+            <div class="job_types_wrapper container">
+                <ul>
+                    <li><a href="">Software Web (995)</a></li>
+                    <li><a href="">Marketing (956)</a></li>
+                    <li><a href="">Teaching and Education</a></li>
+                    <li><a href="">Human Resources (129)</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Sales & BD (841)</a></li>
+                    <li><a href="">Creative Design (285)</a></li>
+                    <li><a href="">Engineering (163)</a></li>
+                    <li><a href="">Operations (105)</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Customer Services (412)</a></li>
+                    <li><a href="">Telemarketing (210)</a></li>
+                    <li><a href="">Health & Medicine (139)</a></li>
+                    <li><a href="">Clearical & Front Office (97)</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Accounts & Finance (364)</a></li>
+                    <li><a href="">Administration (187)</a></li>
+                    <li><a href="">Writing (133)</a></li>
+                    <li><a href="">More Functional Area</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-------------------
+        ----SECTION -SUCCESS STORIES
+        --------------------->
+
+        <section class="success_stories">
+            <h2 class="heading">Success stories</h2>
+
+            <div class="success_stories_wrapper container">
+                <!-- SUCCESS STORY - 1 -->
+
+                <article class="success_story">
+                    <figure>
+                        <img src="./images/D-pointed testimonial.png" alt="" />
+                    </figure>
+
+                    <div class="person_info">
+                        <p class="person_name">Richard</p>
+                        <p class="person_title">Graphics Designer</p>
+
+                        <p class="person_details">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                            nesciunt incidunt quaerat facere minima ea alias vero reiciendis
+                            quibusdam fuga.
+                        </p>
+
+                        <ul class="success_social_list flex">
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-soundcloud"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- SUCCESS STORY - 2 -->
+
+                <article class="success_story">
+                    <figure>
+                        <img src="./images/D-pointed testimonial.png" alt="" />
+                    </figure>
+
+                    <div class="person_info">
+                        <p class="person_name">Ricahrd</p>
+                        <p class="person_title">Graphics Designer</p>
+
+                        <p class="person_details">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                            nesciunt incidunt quaerat facere minima ea alias vero reiciendis
+                            quibusdam fuga.
+                        </p>
+
+                        <ul class="success_social_list flex">
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-soundcloud"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- SUCCESS STORY - 3 -->
+
+                <article class="success_story">
+                    <figure>
+                        <img src="./images/D-pointed testimonial.png" alt="" />
+                    </figure>
+
+                    <div class="person_info">
+                        <p class="person_name">Syed Ekram</p>
+                        <p class="person_title">Photographer</p>
+
+                        <p class="person_details">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                            nesciunt incidunt quaerat facere minima ea alias vero reiciendis
+                            quibusdam fuga.
+                        </p>
+
+                        <ul class="success_social_list flex">
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="social_link"><i class="fa-brands fa-soundcloud"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-------------------
+        ----SECTION - FOOTER
+        --------------------->
+
+    <footer>
+        <div class="footer_wrapper container">
+            <!-- COMPANY LINKS -->
+
+            <div class="company_list">
+                <p>Company</p>
+
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Press Corner</a></li>
+                    <li><a href="">Community Services</a></li>
+                    <li><a href="">Adviser With US </a></li>
+                </ul>
+            </div>
+
+            <!-- SECTION - ABOUT US -->
+
+            <section class="about_us">
+                <h2 class="about_heading">About Us</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                    aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat, reiciendis.
+                </p>
+
+                <ul class="about_social_list flex">
+                    <li>
+                        <a href="" class="social_link"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="social_link"><i class="fa-brands fa-tumblr"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="social_link"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="social_link"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="social_link"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="social_link"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="social_link"><i class="fa-brands fa-google-plus-g"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="social_link"><i class="fa-brands fa-vimeo-v"></i></a>
+                    </li>
+                </ul>
+
+                <!-- COPYRIGHT -->
+
+                <p class="copyright">© 2024 All Rights Reserved by Dpointed</p>
+            </section>
+
+            <!-- QUICK LINKS -->
+
+            <div class="quick_list">
+                <p>Quick Links</p>
+
+                <ul>
+                    <li><a href="">Mobile</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Affiliate Program</a></li>
+                    <li><a href="">Never Miss an Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
